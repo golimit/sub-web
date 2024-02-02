@@ -34,6 +34,7 @@ docker -v
 Docker version 23.0.4, build f480fb1
 
 docker build -t golimit/subweb:hongkongv240202 .
+docker push golimit/subweb:hongkongv240202
 docker run -d -p 58080:80 --restart always --name subweb subweb-local:latest
 ```
 
